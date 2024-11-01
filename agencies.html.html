@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+
+<head>
+	<title> RA 8750 | Seatbelt Act </title>
+	<link rel="icon" href="seatbelt.png">
+	<link rel="stylesheet" href="untitled.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+	*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(seatbeltbackground.jpg);
+	background-position: center;
+	background-size: cover;
+	position:relative;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #0bbedd;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover:after{
+	width: 100%;
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.agencies{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.agency-col{
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.agency-col img{
+	width: 100%;
+	display: block;
+	border-style: ridge;
+}
+.layer{
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+.layer:hover{
+	/* background: rgba(0, 154, 226, 0.7); */
+	background: #0bbedd;
+
+}
+.layer p{
+	width: 100%;
+	font-weight: 500;
+	font-size: 18px;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+}
+.layer h3{
+	width: 100%;
+	font-weight: 500;
+	font-size: 20px;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+}.layer h2{
+	width: 100%;
+	font-weight: 500;
+	font-size: 36px;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+}
+.layer:hover h2{
+	bottom: 85%;
+	opacity: 1;
+}
+.layer:hover h3{
+	bottom: 79%;
+	opacity: 1;
+}.layer:hover p{
+	bottom: 35%;
+	opacity: 1;
+}
+.sub-headerzz{
+	height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30.07),rgba(4,9,30,0.7)),url(agency.png);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.sub-headerzz h1{
+	font-size: 50px;
+}
+</style>
+
+<body>
+	<section class="sub-headerzz">
+		<nav>
+			<a href="index.html.html"> <img src="shield.png" alt="Safety Check" style="width: 100px;height:100px;"></a>
+			<div class="nav-links">
+				<ul>
+					<li><a href="index.html.html">HOME</a></li>
+					<li><a href="about.html.html">ABOUT</a></li>
+					<li><a href="agencies.html.html">AGENCY</a></li>
+					<li><a href="violations.html.html">VIOLATION</a></li>
+					<li><a href="Team.html">TEAM</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h1>Ahensya</h1>
+	</section>
+
+<section class="agencies">
+	<h1>Mga Ahensya</h1>
+	<p>Mga Ahensiyang Inatasang Magpatupad ng Batas:</p>
+
+	<div class="row">
+		<div class="agency-col">
+			<img src="LTO.jfif" alt="LTO">
+			<div class="layer">
+				<h2><b>LTO</b></h2>
+				<h3>Land Transportation Office</h3>
+				<p> Isang ahensya sa ilalim ng Department of Transportation and Communication (DOTC) na pangunahing responsable 
+					sa pagpapatupad ng RA 8750. Ang LTO ang may tungkuling magsama sa mga alituntunin ng pagpaparehistro ng sasakyan 
+					ang tamang pag-install at paggamit ng seat belts at seat belt devices.
+				</p>
+			</div>
+		</div>
+
+		<div class="agency-col">
+			<img src="DEPED.jpg" alt="DepEd">
+			<div class="layer">
+				<h2><b>DepEd</b></h2>
+				<h3>Department of Education</h3>
+				<p>Responsable sa pagpapakalat ng impormasyon tungkol sa batas sa tulong ng mga local government units (LGUs) 
+					at iba pang nongovernment organizations (NGOs). Layunin ng kanilang Nationwide Public Information Campaign na 
+					ipaalam sa publiko ang mga layunin ng batas para sa kaligtasan sa mga kalsada.
+				</p>
+			</div>
+		</div>
+	</div>
+</section> 
+</body>
+
+
+</htmL>

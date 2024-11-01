@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+
+<head>
+	<title> RA 8750 | Seatbelt Act </title>
+	<link rel="icon" href="seatbelt.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+	*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(seatbeltbackground.jpg);
+	background-position: center;
+	background-size: cover;
+	position:relative;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #0bbedd;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover:after{
+	width: 100%;
+}
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 70px;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 17px;
+	color: #fff;
+}
+.hero-btn{ 
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 16px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.hero-btn:hover{
+	border: 1px solid #0bbedd;
+	background: #0bbedd;
+	transition: 1s;
+}
+.her-btn{ 
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 16px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.her-btn:hover{
+	border: 1px solid #0bbedd;
+	background: #0bbedd;
+	transition: 1s;
+}
+</style>
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html.html"> <img src="shield.png" alt="Safety Check" style="width: 100px;height:100px;"></a>
+			<div class="nav-links">
+				<ul>
+					<li><a href="index.html.html">HOME</a></li>
+					<li><a href="about.html.html">ABOUT</a></li>
+					<li><a href="agencies.html.html">AGENCY</a></li>
+					<li><a href="violations.html.html">VIOLATION</a></li>
+					<li><a href="Team.html">TEAM</a></li>
+				</ul>
+			</div>
+		</nav>
+
+<div class="text-box">
+	<h1>The Seat Belts Use Act of 1999</h1>
+	<p> Ang mga seat belt ay itinuturing na mga tagapagligtas ng buhay. Pinipigilan nito ang mga drayber <br>at pasahero na mapinsala
+		sa tuwing may nagaganap na aksidente sa kalsada. 
+	 <br> Isinabatas ng Pilipinas ang <b>RA 8750</b> o ang Seat 
+		Belt Use Act of 1999.
+	</p>
+	<a href="https://www.youtube.com/watch?v=YLCWGcNpY94" class="her-btn">Alamin ang kahalagahan ng paggamit ng seat belt</a>
+</div>
+	</section>
